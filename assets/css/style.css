@@ -1,0 +1,15 @@
+h1 {
+	font-size: 45px;
+	color: blue;
+}
+
+.title {
+	font-size: 35px;
+	color: violet;
+	text-align: center;
+}
+
+#paragraph{
+	font-size: 20px;
+	color: green;
+}

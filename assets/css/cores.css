@@ -1,0 +1,13 @@
+body{
+	color: blue;
+	background-color: lightblue;
+	text-align: center;
+}
+
+.corRGB{
+	color: rgba(300,50,10, 0.25);
+}
+
+.corHEX{
+	color: #26B658;
+}

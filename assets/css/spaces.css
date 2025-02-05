@@ -1,0 +1,13 @@
+body{
+	background-color: lightsalmon;
+}
+div{
+	color: lightcoral
+}
+.blue--square{
+	background-color: aqua;
+	width: 300px;
+	height: 300px;
+	border: 2px solid blue;
+	border-radius: 30%;
+}

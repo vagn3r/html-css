@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Playwrite+PT+Guides&display=swap');
+body{
+	background-color: darkblue;
+	color: aquamarine;
+}
+.titulo{
+	font-size: 50;
+	font-family: "writeline", Arial;
+}
+
+.titulo--1{
+	font-size: 30;
+	font-family: "Courgette", Arial;
+}
+
+@font-face {
+	font-family: "writeline";
+	src: url("../fonts/writeline.ttf") format("truetype");
+}
