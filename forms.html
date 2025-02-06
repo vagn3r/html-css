@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Forms</title>
+</head>
+<body>
+	<h1>Forms</h1>
+	<h2>text 'n textarea</h2>
+	<form action="/login" enctype="multipart/form-data" method="">
+		<input type="text" placeholder="insert a name" name="nome" />
+		<br />
+		<input type="text" placeholder="insert an email" name="email" />
+		<br />
+		<input type="submit" value="send">
+		<br />
+		<br />
+
+		<textarea name="article" id="" >Lorem.</textarea>
+		<br />
+		<input type="text" value="pre loaded value" name="preLoaded" />
+		<br />
+		<input type="text" maxlength="10" placeholder="maxlength 10" name="email" />
+		<br />
+		<input type="number" min="0" max="100" placeholder="number" name="number">
+		<br />
+		<input type="email" name="email" placeholder="email field">
+		<br />
+		<input type="password" name="password" placeholder="password">
+		<br/>
+		<input type="search" name="search" placeholder="search">
+		<br/>
+		<input type="url" name="url" placeholder="url">
+		<br/>
+		<input type="tel" name="tel" placeholder="phone">
+		<br/>
+		<input type="date" name="date">
+		<br/>
+		<input type="datetime" name="datetime">
+		<br/>
+		<input type="datetime-local" name="datetime">
+		<br/>
+		<input type="week" name="week">
+		<br/>
+		<input type="month" name="month">
+		<br/>
+		<input type="file" name="file" multiple accept="image/*">
+		<br/>
+		<input type="checkbox" checked value="true" name="banana" id="banana">
+		<label for="banana">Banana</label>
+		<br/>
+		<input type="checkbox" name="maca" id="maca">
+		<label for="maca">Maca</label>
+		<br/>
+		<input type="radio" name="red" id="red">
+		<label for="red">Vermelho</label>
+		<br/>
+		<input type="radio" name="green" id="green">
+		<label for="green">Verde</label>
+		<br/>
+		<input type="color" id="color" name="color">
+		<label for="color">Cor</label>
+	</form>
+</body>
+</html>
