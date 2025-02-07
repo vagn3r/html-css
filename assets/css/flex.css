@@ -1,0 +1,41 @@
+.flex--tudo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: lightblue;
+	height: 100px;
+}
+
+.item{
+	padding: 15px;
+	background: lightcoral;
+	color: whitesmoke;
+	margin: 5px;
+	border-radius: 10px;
+	/* flex: 1; */
+}
+
+.item--3{
+	padding: 15px;
+	background: lightcoral;
+	color: whitesmoke;
+	margin: 10px;
+	flex: 2;
+}
+
+.flex--logo{
+	/* flex: 1; */
+	padding: 30px;
+	background-color: lightpink;
+	justify-content: flex-start;
+	border-radius: 20px;
+}
+
+.flex--menu{
+	flex-direction: row;
+	justify-content: flex-end;
+	flex: 1;
+	display: flex;
+	flex-wrap: wrap;
+}
