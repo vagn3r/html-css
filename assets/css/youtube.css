@@ -230,3 +230,33 @@ nav{
 	border: 0;
 	outline: 0;
 }
+
+.menu--container{
+	display: flex;
+	height: 40px;
+	width: 100%;
+	/* background-color: white; */
+	margin-top: 20px;
+}
+
+.menu--item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	flex: 1;
+	font-family: Roboto;
+	font-size: 15.5px;
+	color: #8f8f8f;
+	font-weight: 500;
+	border: 2px solid transparent;
+	cursor: pointer;
+}
+
+.menu--item--selecionado{
+	border-bottom: 2px solid #9a9a9a;
+}
+
+.menu--lupa{
+	width: 20%;
+}
