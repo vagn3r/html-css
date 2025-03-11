@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.avatar--top--bar{
+	width: 40px;
+	height: 40px;
+}
+
+.avatar--left--bar{
+	width: 48px;
+	height: 48px;
+}
+
+.qunatity--messages{
+	width: 18px;
+	height: 18px;
+}
+
+.font--family{
+	font-family: 'Inter', sans-serif;
+}
+
+.font--size--16{
+	font-size: 16px;
+}
+.font--size--14{
+	font-size: 14px;
+}
+
+.font--weight--bold{
+	font-weight: bold;
+}
+
+.background--white{
+	background-color: white;
+}
+
+.background--green{
+	background-color: #78E378;
+}
+
+.background--light--grey{
+	background-color: #F5F5F5;
+}
+
+.menu{
+	height: 70px;
+}
+
+.div--search{
+	border-radius: 25px;
+	padding: 10px;
+	width: 100%;
+}
+
+.div--search input{
+	border: 0;
+	background: transparent;
+	outline: 0;
+	flex-grow: 1;
+	color: #707991;
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	margin-left: 3px;
+}
+
+.search{
+	padding-right: 20px;
+}
+
+.left--bar{
+	border: .5px solid #D9DCE0;
+}
+
+.area--contact{
+	height: 72px;
+	padding-left: 5px;
+	padding-right: 10px;
+	cursor: pointer;
+}
+
+.infos--contact{
+	gap: 5px;
+}
+
+.last--message{
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	color: #707991;
+}
+
+.hour--last--message{
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	font-size: 12px;
+	color: #707991;
+}
+
+.quantity--not-viewed--messages{
+	width: 18px;
+	height: 18px;
+	border-radius: 50%;
+	font-family: 'Inter', serif;
+	font-size: 12px;
+	color: white;
+}
+
+.div--last--messages-info{
+	gap: 5px;
+}
+
+.div--contacts{
+	margin-top: 10px;
+}
+
+.side--bar{
+	height: 56px;
+	width: 100%;
+	border-bottom: .5px;
+}
+
+.contact--name{
+	font-family: 'Inter', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.contact--status{
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	font-size: 14px;
+	color: #707991;
+}
+
+.div--sidebar--icons{
+	padding-right: 20px;
+	gap: 30px;
+}
+
+.background--messages {
+	background-image: url("../images/background.png");
+    height: 100%;
+    width: 100%;
+	background-size: cover;
+    background-position: center;
+    background-color: rgba(139, 171, 216, 0.5); 
+    background-blend-mode: multiply;
+}
+
+.div--container--messages{
+	padding-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	gap: 10px;
+}
+
+.date--chat{
+	width: 71px;
+	height: 28px;
+	border-radius:  15px;
+	background: #3d70b86b;
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	color: white;
+	max-width: 116px;
+}
+
+.width--100{
+	width: 100%;
+}
+
+.message{
+	padding: 10px;
+	border-radius: 10px;
+	font-family: 'Inter', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	gap: 5px;
+}
+
+.other{
+	background-color: #FFFFFF;
+}
+
+.you{
+	background-color: #78E378;
+}
+
+.font--size--12{
+	font-size: 12px;
+}
+
+.infos-message{
+	gap: 5px;
+}
+
+.div--messages{
+	gap: 10px;
+}
+
+.div--text--field{
+	height: 56px;
+	border-radius: 10px;
+	background-color: white;
+	width: 100%;
+}
+
+.text--field{
+	width: 100%;
+	border: 0;
+	outline: 0;
+	height: 100%;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+}
