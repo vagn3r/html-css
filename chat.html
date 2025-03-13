@@ -167,7 +167,13 @@
 				</div>
 
 				<div class="flex flex--3 justify--content--end align--items--center div--sidebar--icons">
-					<img src="./src/icons/search.svg" alt="">
+					<!-- <img src="./src/icons/search.svg" alt=""> -->
+					<div class="flex justify--content--center align--items--center flex--5 search">
+						<div class="flex align--items--center background--light--grey div--search">
+							<img src="./src/icons/search.svg" alt="">
+							<input id='search-message' type="search" placeholder="search messages" />
+						</div>
+					</div>
 					<img src="./src/icons/phone.svg" alt="">
 					<img src="./src/icons/more.svg" alt="">
 				</div>
@@ -177,7 +183,7 @@
 				<div class="flex flex--direction--column div--container--messages width--100">
 					<div class="flex flex--direction--column flex-6 width--100">
 						<div class="flex flex--direction--column align--items--center justify--content--center width--100 div--messages">
-							<div class="flex date--chat justify--content--center align--items--center">
+							<div id="today" class="flex date--chat justify--content--center align--items--center">
 								Today
 							</div>
 							<div class="flex justify--content--start width--100">
@@ -219,13 +225,13 @@
 					<div class="flex flex--1">
 						<div class="flex align--items--center div--text--field">
 							<div class="flex justify--content--center align--items--center flex--1">
-								<img src="./src/icons/emoticons.svg" alt="">
+								<img src="./src/icons/emoticons.svg" class="cursor--pointer emoji--reaction">
 							</div>
 							<div class="flex--13">
-								<input type="text" class="text--field" placeholder="Message">
+								<input id="inputMessage" type="text" class="text--field" placeholder="Message">
 							</div>
 							<div class="flex justify--content--center align--items--center flex--1">
-								<img src="./src/icons/send.svg" alt="">
+								<img src="./src/icons/send.svg" class="cursor--pointer">
 							</div>
 						</div>
 					</div>
@@ -235,5 +241,6 @@
 
 		</div>
 	</div>
+	<script src="./src/script/script.js"></script>
 </body>
 </html>
