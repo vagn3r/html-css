@@ -257,6 +257,8 @@ document.addEventListener('DOMContentLoaded', () => {
 	const inputSearchMessage = document.getElementById('search-message');
 	console.log(inputSearchMessage);
 
+	const windowAvatar = document.getElementById('window-avatar');
+
 	inputSearchContact.addEventListener('input', () => {
 		console.log('input', inputSearchContact.value);
 		loadContacts(inputSearchContact.value);
@@ -355,9 +357,8 @@ document.addEventListener('DOMContentLoaded', () => {
 				console.log('click on contact', contact);
 				// alert('click on contact');
 				const contactName = document.querySelector('.contact--name');
-				const contactAvatar = document.querySelector('.avatar--left--bar');
+				windowAvatar.src = contact.avatar;
 				contactName.innerText = contact.name;
-				contactAvatar.src = contact.avatar;
 				list_messages.innerHTML = '';
 				if (contact.chats){
 					contact.chats.forEach(chat => {
